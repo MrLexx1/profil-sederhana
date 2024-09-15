@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 0.1rem;
+    text-align: center;
+}
+
+header:hover{
+    color: darkorange;
+}
+
+.profil {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.foto-profil {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    color: #333;
+}
+
+ul {
+    list-style-type: square;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
